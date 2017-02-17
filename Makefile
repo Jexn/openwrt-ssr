@@ -261,6 +261,6 @@ define Package/luci-app-shadowsocksR-GFW/install
 endef
 
 $(eval $(call BuildPackage,luci-app-shadowsocksR))
-#$(eval $(call BuildPackage,luci-app-shadowsocksR-Client))
+$(eval $(call BuildPackage,luci-app-shadowsocksR-Client))
 #$(eval $(call BuildPackage,luci-app-shadowsocksR-Server))
 $(eval $(call BuildPackage,luci-app-shadowsocksR-GFW))
